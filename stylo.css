@@ -1,0 +1,185 @@
+body{
+    background-color: #F6EDE7;
+    background-image: url('img/Aguarosa_1.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+    border:none;
+    font-family:"verdana"  
+}
+/*fuente de letra texto centrado subrayado y sombreado*/ 
+header h1 { 
+    background-color: #E7C3B1;
+    padding:3rem  2rem ;
+    text-align: center;
+    color:#5A3E36;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #5A3E36;
+    text-shadow: 2px 3px 3px #C4A69F;
+   
+} 
+/* subrayamos el comienzo */
+.comienzo{
+text-decoration: underline;
+color: black;
+}
+ /* destacamos la palabra outfits por colores de arcoiris */
+.destacado {
+     
+     cursor: pointer; /* Cambia a manito al pasar el mouse */
+     font-weight: bold;
+     font-size: 1.5em;
+     animation: rainbowGlow 3s infinite; /* Animación continua */
+}
+
+/* Animación de colores y brillo */
+@keyframes rainbowGlow {
+  0%   { color: red; text-shadow: 0 0 5px red; }
+  14%  { color: orange; text-shadow: 0 0 5px orange; }
+  28%  { color: yellow; text-shadow: 0 0 5px yellow; }
+  42%  { color: green; text-shadow: 0 0 5px green; }
+  57%  { color: blue; text-shadow: 0 0 5px blue; }
+  71%  { color: indigo; text-shadow: 0 0 5px indigo; }
+  85%  { color: violet; text-shadow: 0 0 5px violet; }
+  100% { color: red; text-shadow: 0 0 5px red; }
+}
+
+header p{
+    color:#5A3E36;
+    font-size: 30px;
+    text-align: center;
+}
+header h3{
+    margin: 1cm;
+    color: #5A3E36;
+}
+
+/* LOGO FLOTANTE */
+ header div{    
+    position: fixed;     /* queda fijo en la pantalla */
+    top: 40px;           /* distancia desde arriba */
+    right: 30px;         /* distancia desde la derecha */
+    width: 150px;
+    height: 150px;
+    background: #fff;    /* fondo blanco (puedes cambiarlo) */
+    border-radius: 50%;  /* HACE EL LOGO CIRCULAR */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+    padding: 10px;
+    z-index: 999;        /* por encima de todo */
+ }
+
+ header div:hover {
+    transform: scale(1.2); /* Se agranda un 20% al pasar el mouse */
+}
+
+.logo img{
+     width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background: rgba(255,255,255,0.7);
+    margin: 3rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+.num {
+    padding: 1cm; /* espacio interno de 1 cm dentro del artículo */
+  
+}
+.num .contenido {
+  display: flex;           /* Activa flexbox */
+  align-items: flex-start; /* Alinea la imagen y texto al inicio */
+  gap: 20px;               /* Espacio entre imagen y texto */
+}
+
+.num .imagen {
+  width: 300px;            /* Ajusta el tamaño de la imagen */
+  height: auto;            /* Mantiene proporción */
+}
+
+.num .descripcion {
+  max-width: 600;        /* Opcional: limita ancho del texto */
+  
+}
+
+
+.poste {
+    padding: 2cm; /* espacio interno de 1 cm dentro del artículo */
+   
+}
+.poste .contenido2 {
+  display: flex;           /* Activa flexbox */
+  align-items: flex-start; /* Alinea la imagen y texto al inicio */
+  gap: 20px;               /* Espacio entre imagen y texto */
+  flex-direction: row-reverse;
+}
+
+.poste .imagen2 {
+  width: 300px;            /* Ajusta el tamaño de la imagen */
+  height: auto;            /* Mantiene proporción */
+}
+
+.poste .descripcion2 {
+  max-width: 600px;        /* Opcional: limita ancho del texto */
+}
+
+
+.posta {
+    padding: 1cm; /* espacio interno de 1 cm dentro del artículo */
+  
+}
+.posta .contenido3 {
+  display: flex;           /* Activa flexbox */
+  align-items: flex-start; /* Alinea la imagen y texto al inicio */
+  gap: 20px;               /* Espacio entre imagen y texto */
+}
+
+.posta .imagen3 {
+  width: 400px;            /* Ajusta el tamaño de la imagen */
+  height: 300px;            /* Mantiene proporción */
+}
+
+.posta .descripcion3 {
+  max-width: 600px;        /* Opcional: limita ancho del texto */
+}
+
+section {
+    font-size: 20px;
+}
+
+footer{
+     background-color: #5A3E36;
+     padding: 3rem;
+     color: #F6EDE7;
+}
+
+footer section{
+    float:right;
+}
+     
+ footer p{
+    margin: 0;
+ }    
+
+ footer a{
+    transition: color 0.3s ease;
+    color:#E7C3B1;
+    text-decoration: none;
+ }
+ footer a:hover{
+    color: cornflowerblue;
+ }
