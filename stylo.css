@@ -161,6 +161,12 @@ section {
     font-size: 20px;
 }
 
+.diseño {
+    color: #4CAF50; /* color del h2, por ejemplo verde */
+    font-size: 24px; /* tamaño del texto */
+}
+
+
 /* Menú oculto */
 .menu {
   display: none;
@@ -255,6 +261,7 @@ footer section{
     color: cornflowerblue;
 
  }
+
 
 
 
