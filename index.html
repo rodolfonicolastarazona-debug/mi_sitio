@@ -76,16 +76,18 @@
             </div>
         </article>
 
-        <form action="/formulario" method="post">    
-    <label  for="comentario">comentario</label>
-    <textarea rows="10" cols="50" id="comentario" placeholder="ingrese comentario" name="comentario">Escribir su comentario</textarea>
-    <br>
+      <form action="https://formsubmit.co/rodolfonicolastarazona@gmail.com" method="POST">
+    
+    <label for="comentario">Comentario</label>
+    <textarea name="comentario" id="comentario" required></textarea>
+
+    <!-- Opcionales -->
+    <input type="hidden" name="_captcha" value="false">
+
     <div class="botonera">
-      <button type="button"  class="button">boton</button>
-      <button type="reset">Borrar</button>
-      <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button>
     </div>
-     </form>  
+</form>
     
         
     </section>
@@ -102,6 +104,7 @@
 </body>
 
 </html>
+
 
 
 
