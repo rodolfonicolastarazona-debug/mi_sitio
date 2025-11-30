@@ -162,8 +162,13 @@ section {
 }
 
 .diseño {
-    color: green; /* color del h2, por ejemplo verde */
-    font-size: 24px; /* tamaño del texto */
+     font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s linear infinite;
 }
 
 
@@ -261,6 +266,7 @@ footer section{
     color: cornflowerblue;
 
  }
+
 
 
 
