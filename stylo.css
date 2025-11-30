@@ -162,7 +162,7 @@ section {
 }
 
 .diseño {
-    color: #4CAF50; /* color del h2, por ejemplo verde */
+    color: green; /* color del h2, por ejemplo verde */
     font-size: 24px; /* tamaño del texto */
 }
 
@@ -261,6 +261,7 @@ footer section{
     color: cornflowerblue;
 
  }
+
 
 
 
