@@ -192,6 +192,45 @@ section {
   display: block;
 }
 
+/*inicio de ingresar comentario  */
+#comentario{
+    border-color: blue;
+    background-color: bisque;
+    width: 550px;
+    height: 50px;
+}
+.botonera button{
+  cursor: pointer;
+  margin-left: 30px; /* mueve cada botón un poco a la derecha */
+  padding: 10px 20px;    /* más espacio dentro del botón */
+  font-size: 12px;       /* tamaño del texto */
+ border-radius: 8px;      /* bordes redondeados */
+  border: none;            /* quita borde por defecto */
+  background-color: #4CAF50; /* color principal del botón */
+  color: white;            /* color del texto */
+  transition: all 0.3s ease; /* animación suave al pasar el ratón */
+}
+
+/* Efecto hover */
+.botonera button:hover {
+  background-color: #45a049; /* color al pasar el mouse */
+  transform: scale(1.05);    /* ligero aumento de tamaño */
+}
+
+/* Opcional: sombra para dar profundidad */
+.botonera button {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+ .botonera {
+  margin-top: 10px;
+  margin-left: 120px; /* tu desplazamiento hacia la derecha */
+  margin-bottom: 30px; /* espacio hacia abajo */
+  display: flex;
+  gap: 10px;
+}
+
+
+
 
 footer{
      background-color: #5A3E36;
@@ -216,3 +255,4 @@ footer section{
     color: cornflowerblue;
 
  }
+
